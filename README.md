@@ -15,7 +15,7 @@ The project uses Node.js and the Create-React-App starter. If you do not have No
 Once Node is installed, navigate to the directory where you want to store the app
 
 ```
-git clone https://github.com/sarah-maris/reactnd-project-myreads.git
+git clone https://github.com/pierratono/MyReads.git
 npm install
 ```
 
