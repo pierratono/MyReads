@@ -5,4 +5,5 @@ import App from './components/App'
 import './css/index.css'
 
 ReactDOM.render(
-  <App /> , document.getElementById('root'))
+  <BrowserRouter>
+  <App /></BrowserRouter> , document.getElementById('root'))
