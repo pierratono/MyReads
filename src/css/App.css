@@ -12,12 +12,13 @@ body, .app {
 
 .list-books-title {
   padding: 10px 0;
-  background: #2e7c31;
+  background: #111111;
   text-align: center;
 }
 .list-books-title h1 {
   font-weight: 400;
   margin: 0;
+  font: bold 2.5em 'Roboto Slab', serif;
   color: white;
 }
 
@@ -38,6 +39,7 @@ body, .app {
 
 .bookshelf-title {
   border-bottom: 1px solid #dedede;
+  font: bold 2.5em 'Roboto Slab', serif;
 }
 .bookshelf-books {
   text-align: center;
@@ -53,7 +55,7 @@ body, .app {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #2e7d32;
+  background: #111;
   background-image: url('../icons/add.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -147,7 +149,8 @@ body, .app {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #60ac5d;
+  border: 3px solid white;
+  background: #111;
   background-image: url('../icons/arrow-drop-down.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -171,4 +174,36 @@ body, .app {
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;
+}
+/* not found page */
+.not-found-title {
+  color: #111;
+  font: bold 6em/1 'Roboto Slab', serif;
+  margin: 30px auto;
+  width: 50%;
+}
+
+.not-found-img {
+  margin: auto;
+  width: 50%;
+}
+
+.not-found-img img {
+  width: 100%;
+}
+
+.home-link {
+  margin: 30px auto;
+  width: 50%;
+}
+
+.home-link a {
+  color: #111;
+  font: bold 4em/1 'Roboto Slab', serif;
+  text-decoration: none;
+}
+
+.home-link a:hover {
+  color: #507461;
+  font-size: 5em;
 }
